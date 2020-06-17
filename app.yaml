@@ -6,16 +6,16 @@ threadsafe: yes
 
 handlers:
 
-- url: iamnotfound8/website/css
+- url: https://iamnotfound8.github.io/website/iamnotfound8/website/css
   static_dir: css
 
-- url: iamnotfound8/website/javascript
+- url: https://iamnotfound8.github.io/website/iamnotfound8/website/javascript
   static_dir: javascript
   
-- url: iamnotfound8/website/images
+- url: https://iamnotfound8.github.io/website/iamnotfound8/website/images
   static_dir: images
 
-- url: iamnotfound8/website/.*
+- url: https://iamnotfound8.github.io/website/iamnotfound8/website/.*
   script: main.app
   
 libraries:
